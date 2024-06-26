@@ -16,3 +16,7 @@ Este é um projeto de CRM simples desenvolvido em HTML, CSS e JavaScript, consis
   
 ### Créditos
 Projeto incentivado e motivado por: In100tiva (Professor Luan Oliveira)
+
+### UI/UX Design
+
+- Pimteera ([Link para o design no Figma](https://www.figma.com/community/file/1228596944436602453/crm-web-app?searchSessionId=lxv42r7z-hp6nqr4eiws))
