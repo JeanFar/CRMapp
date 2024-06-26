@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/esquecer_senha/style_esquecer_senha.css">
+    <title>Esqueceu a Senha</title>
+</head>
+<body>
+    <main id="tela-login">
+        <img src="../images/banner1.png" alt="" id="banner">
+        <div id="bot-right">
+            <img src="../images/Logo.svg" alt="logo" id="logomarca">
+        </div>
+        <section class="container">
+
+    <div id="title">
+
+    <h1><strong>ESQUECEU <br> A SENHA?</strong></h1>
+    <p>Preencha com seu e-mail, e enviaremos um e-mail com um link para que você resete sua senha.</p>
+
+    </div>
+
+    <div id="preencher-info">
+        <label for="email-recuperacao"></label>
+        <input placeholder="Email Cadastrado" type="email" id="email-recuperacao" class="email-de-recuperacao" pattern=".+@example\.com" size="30" required /> 
+
+        <button id="enviar-email">Reset password</button>
+    </div>
+
+    <div id="caixa-escondida" style="display: none;">
+        <button id="botao-done">Certo</button>
+        <div id="cabeçalho">
+            <h2><strong>CONFIRMAR ENDEREÇO DE E-MAIL</strong></h2>
+            <p>Nós mandamos um e-mail de confirmação para:</p>
+            <p class="email-de-recuperacao"></p>
+            <p>Cheque seu e-mail e clique no link de confirmação para continuar.</p>
+        </div>
+
+
+
+
+    </div></section></main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="esquecer_senha.js"></script>
+    
+</body>
+</html>

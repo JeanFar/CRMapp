@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <script type="text/javascript" language="javascript" src="./cookies.js" type="module"></script>
+    
+    <title>Aplicativo WEB CRM</title>
+    
+</head>
+<body>
+
+        <main id="tela-login">
+        <img src="../images/banner1.png" alt="" id="banner">
+        <div id="bot-right">
+            <img src="../images/Logo.svg" alt="logo" id="logomarca">
+        </div>
+        <section class="container">
+
+        
+        <div id="topo-pagina">
+
+            </div>
+
+        </div>
+    
+        <!-- Título, subtítulo, labels, botões -->
+        <div id="parte-principal">
+
+            <div id="titulo-principal">
+
+                <div id="titulo">
+
+                    <h1><strong>GIVY CRM <br> WEB APP</strong></h1>
+                    <h2>@Givy</h2>
+
+                </div>
+
+                <p>The CRM platform that is simple to set up and easy to use. Givy lets you handle all your customers, campaign, and coupon in one place.</p>
+
+            </div>
+    
+            <div id="formulario">
+                <div id="login-info">
+
+                    <input type="text" id="usuario" maxlength="20" placeholder="Usuário">
+                    <label  for="usuario" ></label>
+
+                    <input type="text" id="senha" maxlength="20" placeholder="Senha">
+                    <label for="senha"></label>
+
+                </div>
+    
+                <div id="botao-auxiliar">
+                    <div id="check">
+                        
+                        <input type="checkbox" id="lembrar-usuario">
+                        <label for="lembrar-usuario"><p>Lembrar</p></label>
+
+                    </div>
+
+                    <p><a href="/Esquecer Senha/esquecer_senha.html" id="esqueci-senha">Esqueci minha senha</a></p>
+
+                </div>
+    
+                <div id="botao-principal">
+                    <div id="erro-login" style="color: red; display: none;"></div>
+                    <button class="botao-entrar" id="botao-entrar">Entrar</button>
+                    
+                    <a href="../cadastro/cadastro.html"><Button class="botoes-grandes" id="botao-cadastrar">Cadastrar</Button></a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div id="telacookies" style="display: none">
+
+            <!-- essa tela aparece ao entrar no site, ela será hidden, com um tempo ela aparecerá, após isso, 
+                 o usuário vai selecionar a opção, e depois ela vai ficar hidden-->
+            <div id="tela1-cookies">
+                <div id="infos">
+                    <h3><strong>We use cookies</strong></h3>
+                    <h4>This website users cookies to enhance your browsing experience on our website, to show you personalized content 
+                        and targeted ads, to analyze our website traffic, 
+                        and to understand where our visitors are coming from. You can manage your preferences by clicking “Change Preference.”
+                    </h4>
+                </div>
+                <div id="botoes-cookies">
+                    <div class="accept-fecha" id="aceitar-cookies">Accept All</div> 
+                    <a id="preferences-abre">CHANGE PREFERENCES</a>
+                </div>
+            </div>
+        </div>
+            <div id="tela2-cookies" style="display: none">
+                <div id="top">
+                    <h2><strong>Privacy Preferences</strong></h2>
+                    <button id="fechar"></button>
+                </div>
+        
+                <div class="accept-fecha" id="aceitar-preferencias">Accept All</div>
+        
+                <div class="container-cookies">
+                    <div class="containercook-top">
+                        <h3><strong>Necessary</strong></h3>
+                        <button class="rolagem"></button>
+                    </div>
+                    <h3>Necessary cookies are required to help a website useable by enabling core functions and access to secure areas of the website. 
+                        The website cannot function properly without these cookies and they are enabled by default and cannot be disabled.
+                    </h3>
+                </div>
+        
+                <div class="container-cookies">
+                    <div class="containercook-top">
+                        <h3><strong>Analytics</strong></h3>
+                        <button class="rolagem"></button>
+                    </div>
+                    <h3>Analytics cookies help website to understand how visitors interact through the website. 
+                        These cookies help to improve user experiences by collecting and reporting information.
+                    </h3> 
+                </div>
+        
+                <div class="container-cookies">
+                    <div class="containercook-top">
+                        <h3><strong>Marketing</strong></h3>
+                        <button class="rolagem"></button>
+                    </div>
+                    <h3>Marketing cookies are used to track visitors across websites to display relevant advertisements for the individual user and thereby more valuable for publishers and third party advertisers.</h3>
+                </div>
+        
+                <button class="confirm-choices">Confirm my Choices</button>
+            </div>
+        
+        </section>
+        
+    </main>    
+
+
+
+<script src="./login.js" type="module"></script>
+
+</body>
+</html>

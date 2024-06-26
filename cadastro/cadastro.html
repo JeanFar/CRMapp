@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cadastro/style_cadastro.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <main id="tela-login">
+
+        <section class="container">
+    <tela-cadastro>
+        <h1>MEMBERSHIP INFO</h1>
+
+        <div id="formulario">
+            <div id="label-principal">
+           
+                <div id="prim-nome-cadastro">
+                    <input placeholder="Primeiro Nome" type="text" pattern="[a-zA-Z]+" id="primeiro-nome" maxlength="15" size="15" autocomplete="off" required>
+                    <label for="primeiro-nome"></label>
+                </div>
+
+                <div id="ult-nome-cadastro">
+                    <input placeholder="Último Nome" type="text" id="ultimo-nome" pattern="[a-zA-Z]+" maxlength="15" size="15" autocomplete="off" required>
+                    <label for="ultimo-nome"></label>
+                </div>
+
+                <div id="email-cadastro">
+                    <input placeholder="E-mail" type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"  size="30" maxlength="35" autocomplete="off" required>
+                    <label for="email"></label>
+                </div>
+
+
+                <div id="telefone-cadastro">
+                    <input type="tel" id="telefone"  title="Telefone" placeholder="Telefone de contato" maxlength="15" maxlength="20" autocomplete="off" required>
+                    <label for="telefone"></label>
+                </div>
+
+                <div id="senha-cadastro">
+                    <input type="password" placeholder="Senha" id="senha" maxlength="20" autocomplete="off" required >
+                    <label for="senha"></label>
+                </div>
+
+            </div>
+
+            <div id="label-final">
+
+                <div id="confirmar-senha-cadastro">
+                    <input placeholder="Confirmar senha" type="password" id="confirmar-senha" maxlength="20" autocomplete="off" required>
+                    <label for="confirmar-senha"></label>
+                </div>
+            
+                <button id="confirmar-cadastro">Confirmar</button>
+
+            </div>
+        </div>
+
+        <footer>
+            <p>Entre utilizando outra conta</p>
+            <div id="icons">
+                <div class="opcoes"><img src="../images/apple.png" alt="Logo da Apple"></div>
+                <div class="opcoes"><img src="../images/facebook.png" alt="logo do Facebook"></div>
+                <div class="opcoes"><img src="../images/google.png" alt="logo do Google"></div>
+
+            </div>
+
+
+        
+        </footer>
+
+    
+
+    </tela-cadastro></section></main>
+    <script src="/cadastro/cadastro.js" type="module"></script>
+</body>
+</html>

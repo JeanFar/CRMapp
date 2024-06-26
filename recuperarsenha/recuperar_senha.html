@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+</head>
+<body>
+    <body>
+        <div id="topo-pagina">
+            <img src="../images/banner1.png" alt="" id="banner">
+    
+            <div id="bot-right">
+                <img src="../images/Logo.svg" alt="logo" id="logomarca">
+            </div>
+    
+        </div>
+    
+        <div id="title">
+    
+        <h1><strong>RESETE SUA SENHA</strong></h1>
+        <p>Como você gostaria que fosse sua nova senha?</p>
+    
+        </div>
+    
+        <div id="preencher-info">
+            <label for="nova-senha">Senha</label>
+            <input type="text" id="nova-senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{1,15}$" 
+                title="A senha deve ter no máximo 15 caracteres, incluindo pelo menos uma letra maiúscula, 
+                uma letra minúscula, um número e um caractere especial (@$!%*?&)." required>
+
+
+            <label for="confirmar-nova-senha">Confirmar Senha</label>
+            <input type="text" id="confirmar-nova-senha">
+
+
+            <!-- Salvar direciona para a página home -->
+            <button id="botao-salvar-nova-senha"><h2><strong>Salvar</strong></h2></div>
+        </div>
+    
+    
+        </div>
+    
+    
+    
+<script src="recuperar_senha.js" type="module"></script>
+        
+    
+</body>
+</html>

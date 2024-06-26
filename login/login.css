@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --purple: #6F5FE7;
+    --grey: #BABABA;
+    --font: 'Inter', Arial, sans-serif;
+    --bg: #131318;
+    --hover-bt: #564ab8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+body{
+    background-color: var(--grey);
+    font-family: var(--font);
+    color: white;
+}
+#banner{
+    height: 200px;
+    
+
+}
+#logomarca{
+    right: 24px;
+    position: absolute;
+    top: 20%;
+
+}
+
+main{
+    width: 375px;
+    height: 867px;
+    margin: auto;
+    background-color: var(--bg);
+    position: relative;
+
+    
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+h2{
+    font-size: 18px;
+    color: var(--grey);
+    font-weight: 400;
+}
+
+p{
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+#parte-principal{
+    padding: 0 24px;
+}
+
+input{
+    border-radius: 10px;
+    height: 50px;
+    background-color: var(--bg);
+    border-style: none;
+    border: 1px solid #4F4F4F;
+    margin: 15px 0;
+    width: 100%;
+    color: white;
+    
+}
+
+input::placeholder{
+    color: #A1A1A3;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+#lembrar{
+    background-color: var(--purple);
+    width: 20px;
+
+}
+#botao-auxiliar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#check{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+a{
+    color: var(--grey);
+}
+
+button{
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+#botao-entrar{
+    background-color: #6F5FE7;
+    color: white;
+}
+#botao-entrar:hover{
+    background-color: var(--hover-bt);
+}
+
+#botao-cadastrar{
+    margin-top: 16px;
+    background-color: var(--bg);
+    color: var(--purple);
+    border: 2px solid ;
+}
+#botao-cadastrar:hover{
+    background-color: black;
+
+}
+
